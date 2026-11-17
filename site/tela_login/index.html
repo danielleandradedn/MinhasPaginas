@@ -8,14 +8,17 @@
 </head>
 <body>
   <main>
-    <form>
+    <form id="loginForm">
       <h1>Tela de Login</h1>
-      <label class="usuario">Usuário</label>
-      <input type="text" placeholder="Usuário" />
-      <label class="senha">Senha</label>
-      <input type="password" placeholder="Senha" />
+      <label for="username" class="usuario">Usuário</label>
+      <input type="text" id="username" placeholder="Usuário" />
+      <p id="usernameVazio"></p>
+      <label for="password" class="senha">Senha</label>
+      <input type="password" id="password" placeholder="Senha" />
+      <p id="passwordVazio"></p>
       <button type="submit">Entrar</button>
     </form>
-  </main>  
+  </main>
+  <script src="js/script.js"></script>
 </body>
 </html>

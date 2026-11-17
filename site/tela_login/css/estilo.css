@@ -39,7 +39,7 @@ label {
 input[type="text"], input[type="password"] {
   width: 90%;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -56,4 +56,9 @@ button {
 
 button:hover {
     background-color: #1b436e;
+}
+
+p {
+  color: #f70101;
+  margin-top: 5px;
 }

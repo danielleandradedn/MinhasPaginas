@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(217, 7%, 44%);
+    color: #ccc;
+    background-image: url("../img/fundo.png");
+    background-size: cover;
+}
+
+/* Estilos para o tabuleiro de xadrez */
+.tabuleiro {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+    margin: 20px auto;
+}
+
+/* Estilos para as casas do tabuleiro*/
+.casaBranca {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    float: left;
+}
+
+.casaPreta {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    float: left;
+}
+
+/* Estilos para as linhas do tabuleiro */
+.linha {
+    clear: both;
+}
+
+/* Estilos para as peças de xadrez */
+.peca {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    float: left;
+}

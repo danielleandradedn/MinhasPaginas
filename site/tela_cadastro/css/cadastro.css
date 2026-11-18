@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 7%, 44%);
+    background-image: url("../img/fundo.png");
+    background-size: cover;
+}
+
+header {
+    background-color: #202938;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #1b436e;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #1b436e;
+}
+
+form {
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    /* colocar o formulário com transparência */
+    background-color: rgba(204, 204, 204, 0.8);
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #2b66a4;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px 28px 10px 5px;
+}
+
+.campo {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#descricaoProduto {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #2b66a4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b436e;
+}

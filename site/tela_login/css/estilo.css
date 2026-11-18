@@ -6,6 +6,8 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  background-image: url("../img/fundo.png");
+  background-size: cover;
 }
 
 h1 {
@@ -20,6 +22,7 @@ form {
   padding: 0 40px 40px 40px;
   border-radius: 10px;
   box-shadow: 0 0 10px #000;
+  background-color: rgba(204, 204, 204, 0.8);
 }
 
 label {

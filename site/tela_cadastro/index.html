@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+
+<body>
+    <main>
+        <h1>Cadastro de produtos</h1>
+        <!-- formulário de informações do produto -->
+        <form>
+            <fieldset>
+                <legend>Informações do produto</legend>
+                <div class="container">
+                    <div class="campo">
+                        <label for="codigoProduto">Código do produto:</label>
+                        <input type="text" id="codigoProduto" name="codigo" placeholder="Digite o código do produto" required>
+                    </div>
+                    <div class="campo">
+                        <label for="descricaoProduto">Descrição do produto:</label>
+                        <textarea id="descricaoProduto" name="descricao" placeholder="Digite a descrição do produto" required></textarea>
+                    </div>
+                    <div class="campo">
+                        <label for="fornecedor">Fornecedor:</label>
+                        <input type="text" id="fornecedor" name="fornecedor" placeholder="Digite o nome do fornecedor" required>
+                    </div>
+                    <div class="campo">
+                        <label for="estoque">Estoque:</label>
+                        <input type="number" id="estoque" name="estoque" placeholder="Digite a quantidade em estoque" required>
+                    </div>
+                    <div class="campo">
+                        <label for="precoCusto">Preço de custo:</label>
+                        <input type="number" id="precoCusto" name="preco" placeholder="Digite o preço de custo" required>
+                    </div>
+                    <div class="campo">
+                        <label for="precoVenda">Preço de venda:</label>
+                        <input type="number" id="precoVenda" name="preco" placeholder="Digite o preço de venda" required>
+                    </div>
+                </div>
+            </fieldset>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+</body>
+
+</html>
